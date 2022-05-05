@@ -32,8 +32,8 @@ spring:
         order_updates: true
   datasource:
     url: jdbc:postgresql://localhost:5432/postgres?currentSchema=analytics&binaryTransfer=true&reWriteBatchedInserts=true
-    username: leakartika
-    password: nusantara
+    username: postgres
+    password: admin
     driver-class-name: org.postgresql.Driver
     platform: postgres
 
